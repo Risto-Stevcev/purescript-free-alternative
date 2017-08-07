@@ -1,5 +1,11 @@
 {
   "name": "purescript-free-alternative",
+  "description": "An implementation of free alternative in purescript",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/purescript-free-alternative.git"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
