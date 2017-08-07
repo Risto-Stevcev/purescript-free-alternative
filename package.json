@@ -1,0 +1,29 @@
+{
+  "name": "purescript-free-alternative",
+  "version": "0.1.0",
+  "description": "An implementation of free alternative in purescript",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "pulp build -- --censor-lib --stash --source-maps",
+    "test": "pulp build -I test -- --censor-lib --stash --source-maps && pulp test",
+    "clean": "rm -rf .pulp-cache output"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/purescript-free-alternative.git"
+  },
+  "keywords": [
+    "purescript",
+    "free",
+    "alternative"
+  ],
+  "author": "Risto Stevcev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Risto-Stevcev/purescript-free-alternative/issues"
+  },
+  "homepage": "https://github.com/Risto-Stevcev/purescript-free-alternative#readme"
+}
