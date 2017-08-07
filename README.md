@@ -16,4 +16,9 @@ An implementation of free alternative in purescript
 See [unit tests][1] for example usage
 
 
+## Documentation
+
+Module documentation is [published on Pursuit](http://pursuit.purescript.org/packages/purescript-free-alternative).
+
+
 [1]: https://github.com/Risto-Stevcev/purescript-free-alternative/blob/master/test/Control/Alternative/Free.purs
