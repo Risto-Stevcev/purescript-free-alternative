@@ -7,9 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "build": "pulp build -- --censor-lib --stash --source-maps",
-    "test": "pulp build -I test -- --censor-lib --stash --source-maps && pulp test",
-    "clean": "rm -rf .pulp-cache output"
+    "build": "spago build",
+    "test": "spago test",
+    "clean": "rm -rf .spago output"
   },
   "repository": {
     "type": "git",
